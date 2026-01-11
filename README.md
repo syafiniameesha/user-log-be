@@ -8,12 +8,19 @@ All the backend code is organized under the `/app` folder:
 
 /app
 ├── main.py # Entry point of the FastAPI app
+
 ├── router/ # All route definitions (user, auth, etc.)
+
 ├── services/ # Business logic and service layer
+
 ├── models/ # SQLAlchemy models for database
+
 ├── database/ # Database initialization and connection
+
 ├── utils/ # Helper functions (password, JWT, etc.)
+
 ├── dto/ # Data Transfer Objects for responses and requests
+
 └── config/ # Configuration settings
 
 
