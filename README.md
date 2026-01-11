@@ -7,6 +7,7 @@ This project is a **FastAPI-based backend system written in Python** designed to
 All the backend code is organized under the `/app` folder:
 
 /app
+
 ├── main.py # Entry point of the FastAPI app
 
 ├── router/ # All route definitions (user, auth, etc.)
