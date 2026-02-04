@@ -55,7 +55,7 @@ async def auth_middleware(request: Request, call_next):
 
     # DB check
     db = SessionLocal()
-    user = db.query(User).filter(User.id == claims.id).first()
+    user = db.query(User).filter(User.id == claims["id"]).first()
     db.close()
 
     if not user or not user.access or user.filter_delete:
